@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>History Owner Privacy Policy</title>
+  <style>
+    body {
+      font-family: "Inter", system-ui, -apple-system, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0f172a;
+      color: #e5e7eb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .card {
+      max-width: 720px;
+      padding: 28px;
+      background: rgba(17, 24, 39, 0.9);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+    }
+    h1 {
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-size: 26px;
+      letter-spacing: -0.02em;
+    }
+    p {
+      margin: 8px 0;
+      line-height: 1.6;
+      color: #cbd5e1;
+    }
+    ul {
+      margin: 10px 0;
+      padding-left: 18px;
+      color: #cbd5e1;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Privacy Policy for History Owner</h1>
+    <p>Effective date: <span id="date">2024-01-01</span></p>
+    <p>History Owner keeps selected sites out of your browsing history. We keep your data local and do not collect or sell personal information.</p>
+    <ul>
+      <li><strong>Data stored:</strong> only the domains you add to your block list, kept in Chrome storage (sync/local) to apply your preferences across sessions/devices.</li>
+      <li><strong>Data collection/transmission:</strong> none. We do not send browsing data or personal info off your device.</li>
+      <li><strong>Permissions use:</strong> `history`, `tabs`, and `storage` are used solely to detect visits to your blocked domains and delete those entries from history.</li>
+      <li><strong>Remote code:</strong> none. All code ships with the extension and no code is fetched at runtime.</li>
+    </ul>
+    <p>Contact: <a href="mailto:lixpbd950@gmail.com">you@example.com</a></p>
+  </main>
+  <script>
+    // Set today as the effective date to keep the policy current without edits.
+    document.getElementById("date").textContent = new Date().toISOString().slice(0, 10);
+  </script>
+</body>
+</html>
